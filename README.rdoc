@@ -1,8 +1,8 @@
-= XPChain-ruby 
+= XPChain-ruby (forked from bitcoin-ruby)
 
 This is a ruby library for interacting with the XPChain protocol/network.
 
-OOPS!! below are UNDER CONSTRUCTION!
+(bitcoin-ruby + xpchain specific feature)
 
 Some of the main features are:
 
