@@ -23,9 +23,8 @@ Some of the main features are:
 
 == Installation
 
- gem install bitcoin-ruby
- # OR
- git clone https://github.com/naomi-mcrn/bitcoin-ruby.git; cd bitcoin-ruby; bundle install
+ (no rubygem package!)
+ git clone https://github.com/naomi-mcrn/xpchain-ruby.git; cd xpchain-ruby; bundle install
 
 Note that some aspects of the library (such as networking, storage, etc.) need
 additional dependencies which are not specified in the gemspec. The core requirements are
@@ -35,7 +34,7 @@ intentionally kept to a minimum, so nobody has to install unneeded dependencies.
 * +scrypt+ to use a much faster scrypt hash implementation for Litecoin
 
 If you would like to install using Bundler, put it in your Gemfile and run bundle install
- gem 'bitcoin-ruby', git: 'https://github.com/naomi-mcrn/bitcoin-ruby', branch: 'master', require: 'bitcoin'
+ gem 'xpchain-ruby', git: 'https://github.com/naomi-mcrn/xpchain-ruby', branch: 'master', require: 'bitcoin'
 
 == Library Usage
 
